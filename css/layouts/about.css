@@ -1,0 +1,40 @@
+.about-description {
+  position: absolute;
+  left: 50px;
+  bottom: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #F7F9F9;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.about-description h3 {
+  font-size: 40px;
+  margin: 0;
+
+}
+
+.about-description p {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.about-links {
+  position: absolute;
+  right: 45px;
+  bottom: 45px;
+  display: inline;
+  color: #F7F9F9;
+  margin: 0 10px;
+}
+
+.about-links i {
+  margin: 0 10px;
+  font-size: 30px;
+}
+
+.about-links a {
+  text-decoration: none;
+  color: #F7F9F9;
+}

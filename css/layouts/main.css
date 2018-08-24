@@ -1,0 +1,48 @@
+.wrapper {
+  background: linear-gradient(308.98deg, rgba(255, 255, 255, 0.3465) 0%, rgba(255, 255, 255, 0.190083) 29.84%, rgba(255, 255, 255, 0) 100%), #13192D;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+#wrapper-ellipse {
+  position: absolute;
+  bottom: 0;
+}
+
+.title {
+  position: absolute;
+  top: 28px;
+  left: 55px;
+  color: #F7F9F9;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.title h2 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 45px;
+  margin: 0;
+}
+
+.nav {
+  position: absolute;
+  top: 45px;
+  right: 25px;
+  display: flex;
+  color: #F7F9F9;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.nav h4 {
+  padding: 0 10px;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0 20px;
+  padding-bottom: 10px;
+}
+
+.active {
+  border-bottom: 3px solid #F7F9F9;
+}
