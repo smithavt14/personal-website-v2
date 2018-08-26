@@ -3233,6 +3233,10 @@ schema-utils@^0.4.4, schema-utils@^0.4.5:
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
 
+scroll-js@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/scroll-js/-/scroll-js-1.9.1.tgz#3745c06d0cc61f69ff06abf0f2915eb2c160b69f"
+
 select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"

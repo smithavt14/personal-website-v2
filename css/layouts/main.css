@@ -8,26 +8,28 @@
 
 #wrapper-ellipse {
   position: absolute;
-  bottom: 0;
+  top: 200px;
+  opacity: 0.5;
+  width: 2800px;
 }
 
 .title {
   position: absolute;
-  top: 28px;
-  left: 55px;
+  top: 10px;
+  left: 45px;
   color: #F7F9F9;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  font-family: 'Rock Salt', cursive;
 }
 
 .title h2 {
-  font-family: 'Rock Salt', cursive;
-  font-size: 45px;
+  font-size: 50px;
   margin: 0;
 }
 
 .nav {
   position: absolute;
-  top: 45px;
+  top: 50px;
   right: 25px;
   display: flex;
   color: #F7F9F9;
@@ -38,11 +40,12 @@
   padding: 0 10px;
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  margin: 0 20px;
+  font-weight: 100;
+  margin: 0 15px;
   padding-bottom: 10px;
+  opacity: .5;
 }
 
 .active {
-  border-bottom: 3px solid #F7F9F9;
+  opacity: 1 !important;
 }
