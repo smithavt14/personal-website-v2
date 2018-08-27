@@ -2,9 +2,16 @@
 /* -- Google Fontsheets -- */
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400|Rock+Salt');
 
+/* -- Components -- */
+@import url("components/navbar.css");
+
 /* -- Layouts -- */
 @import url("layouts/main.css");
 @import url("layouts/about.css");
+@import url("layouts/strategy.css");
+@import url("layouts/uiux.css");
+@import url("layouts/development.css");
+@import url("layouts/contact.css");
 
 /* -- Main Styles -- */
 body {

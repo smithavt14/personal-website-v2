@@ -9,20 +9,98 @@
     <!-- Main Background -->
     <div class="wrapper">
       <img src="images/planet.png" id="wrapper-ellipse" alt="background-ellipse">
-      <div class="title">
-        <h2>Alex Smith</h2>
+      <div class="navbar">
+        <div class="title">
+          <h2>Alex Smith</h2>
+        </div>
+        <div class="nav">
+          <h4 id="strategy" class="active">Strategy</h4>
+          <h4 id="ui/ux">UI/UX</h4>
+          <h4 id="development">Development</h4>
+          <h4 id="contact">Contact</h4>
+        </div>
       </div>
-      <div class="nav">
-        <h4 id="strategy" class="active">Strategy</h4>
-        <h4 id="ui/ux">UI/UX</h4>
-        <h4 id="development">Development</h4>
-        <h4 id="contact">Contact</h4>
-      </div>
+    </div>
+      <!-- Scroll Wrapper -->
+    <div class="scroll-wrapper">
       <!-- Home Page -->
-      <div class="about-wrapper">
+      <div class="about-container">
         <div class="about-description">
-        <h3>Full Stack Developer</h3>
-        <p>Ruby, SQL, HTML, CSS, JS, Rails, WeChat</p>
+          <h3>Full Stack Developer</h3>
+          <p>Ruby, SQL, HTML, CSS, JS, Rails, WeChat</p>
+        </div>
+      </div>
+      <!-- Strategy Page -->
+      <div class="strategy-container">
+        <img src="images/flow.svg" id="flow-diagram" alt="flow-diagram">
+        <div class="strategy-text-right">
+          <div class="strategy-title">
+            <h3>Strategy</h3>
+            <p>Helping you understand the "Why" and "How"</p>
+          </div>
+          <div class="strategy-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet sit obcaecati similique, pariatur ad rerum cum odit iusto repellat, repellendus, quis libero nobis architecto optio. Libero ratione quasi, mollitia odit.</p>
+          </div>
+        </div>
+      </div>
+      <!-- UI/UX Page -->
+      <div class="uiux-container">
+        <img src="images/uiux.svg" id="uiux-mockup" alt="uiux-mockup">
+        <div class="uiux-content-right">
+          <div class="uiux-content-right-title">
+            <h3>UI/UX</h3>
+            <p>Helping you get it exactly right</p>
+          </div>
+          <div class="uiux-content-right-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto sapiente facilis natus, laudantium aliquam! Natus, eaque maiores nam beatae. Eius dignissimos officia iure quaerat veniam, vero dolorem quasi quo aliquid.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Development Page -->
+      <div class="development-container">
+        <img src="images/prepclub.svg" id="prepclub-mockup" alt="prepclub-mockup">
+        <div class="dev-content-right">
+          <div class="dev-content-right-title">
+            <h3>Development</h3>
+            <p>Building your idea into reality</p>
+          </div>
+          <div class="dev-content-right-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ducimus dolorem quasi hic perspiciatis incidunt fugiat explicabo deleniti quidem mollitia reiciendis id culpa vero adipisci in, velit aspernatur laudantium ullam.</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/smithavt14@gmail.com"
+          method="POST">
+            <div>
+              <h4>Name:</h4>
+              <input type="text" name="name" id="form-name">
+            </div>
+            <div>
+              <h4>Email:</h4>
+              <input type="email" name="_replyto" id="form-email">
+            </div>
+            <div>
+              <h4>Message:</h4>
+              <input type="text" name="message-content" id="form-content">
+            </div>
+            <div>
+              <input type="submit" value="Send" id="form-submit">
+            </div>
+          </form>
+        </div>
+        <div class="contact-content">
+          <h3>Contact</h3>
+          <div class="contact-content-icons">
+            <a href="https://github.com/smithavt14" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/smithavt14/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:smithavt14@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href=""><i class="fab fa-weixin"></i></a>
+            <a href="https://www.instagram.com/smithavt14/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae qui ex reprehenderit sequi veritatis, quia ut magnam excepturi enim placeat eligendi dolorem voluptas error autem illum at accusantium quasi corporis.</p>
+        </div>
       </div>
     </div>
     <script src="dist/bundle.js"></script>

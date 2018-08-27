@@ -1,0 +1,41 @@
+.uiux-container {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#uiux-mockup {
+  width: 45vw;
+  height: 500px;
+}
+
+.uiux-content-right {
+  width: 41vw;
+  height: 500px;
+  font-family: Roboto;
+  color: white;
+  margin-top: 100px;
+}
+
+.uiux-content-right p {
+  margin: 0;
+}
+
+.uiux-content-right-title h3 {
+  font-size: 40px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.uiux-content-right-title p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 30px 0;
+}
+
+.uiux-content-right-text {
+  font-size: 20px;
+  font-weight: 100;
+}

@@ -13,39 +13,10 @@
   width: 2800px;
 }
 
-.title {
+.scroll-wrapper {
+  width: 100vw;
+  height: calc(100vh - 100px);
   position: absolute;
-  top: 10px;
-  left: 45px;
-  color: #F7F9F9;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-  font-family: 'Rock Salt', cursive;
-}
-
-.title h2 {
-  font-size: 50px;
-  margin: 0;
-}
-
-.nav {
-  position: absolute;
-  top: 50px;
-  right: 25px;
-  display: flex;
-  color: #F7F9F9;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-}
-
-.nav h4 {
-  padding: 0 10px;
-  font-size: 25px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  margin: 0 15px;
-  padding-bottom: 10px;
-  opacity: .5;
-}
-
-.active {
-  opacity: 1 !important;
+  top: 100px;
+  overflow: auto;
 }

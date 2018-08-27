@@ -1,8 +1,10 @@
-import Scroll from 'scroll-js'
+// import Scroll from 'scroll-js'
 
-console.log("Hello")
+// const strategy = document.querySelector('.strategy-container');
+// const scrollToElement = new Scroll(document.body);
 
-var scroll = new Scroll(document.body);
-scroll.to(0, 500).then(function () {
-   console.log("Woohoo!")
-});
+// scrollToElement.toElement(strategy).then(function () {
+//     // done scrolling to the element
+// });
+
+// window.onload = function() { console.log("hello") };
