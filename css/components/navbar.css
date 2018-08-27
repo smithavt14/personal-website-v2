@@ -19,6 +19,11 @@
   margin: 0;
 }
 
+.title a {
+  text-decoration: none;
+  color: #F7F9F9;
+}
+
 .nav {
   display: flex;
   margin: 45px 30px 0 0;
